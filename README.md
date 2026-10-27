@@ -8,7 +8,7 @@ Este projeto contém scripts em MATLAB/Octave para a modelagem matemática e sim
 Modela o posicionamento do manipulador utilizando a convenção de Denavit-Hartenberg (D-H)[cite: 16]. O código calcula as matrizes de transformação homogénea para as duas juntas rotacionais e renderiza um gráfico 3D estático ilustrando as ligações (elos) e os eixos espaciais X, Y e Z da base até ao punho do robô.
 
 **2. Cinemática Inversa (`planar_inversa.m`)**
-Simula o controlo dinâmico do efetor final para seguir trajetórias predefinidas num plano cartesiano. O script permite ao utilizador escolher entre quatro padrões de desenho:
+Simula o controle dinâmico do efetor final para seguir trajetórias predefinidas num plano cartesiano. O script permite ao utilizador escolher entre quatro padrões de desenho:
 * Reta
 * Semicírculo
 * Curva Cúbica
